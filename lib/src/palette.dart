@@ -3,9 +3,12 @@
 // Try to create a Color Picker with other layout on your own :)
 
 import 'dart:math';
+
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:regal/regal.dart';
+
 import 'utils.dart';
 
 /// Palette types for color picker area widget.
@@ -983,9 +986,11 @@ class _ColorPickerInputState extends State<ColorPickerInput> {
       child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
         if (!widget.embeddedText) Text('Hex', style: Theme.of(context).textTheme.bodyLarge),
         const SizedBox(width: 10),
-        SizedBox(
-          width: (Theme.of(context).textTheme.bodyMedium?.fontSize ?? 14) * 10,
-          child: TextField(
+        Expanded(
+          child: RegalTextField(
+            margin: EdgeInsets.zero,
+            showLabel: false,
+            showClear: false,
             enabled: !widget.disable,
             controller: textEditingController,
             inputFormatters: [
@@ -995,7 +1000,6 @@ class _ColorPickerInputState extends State<ColorPickerInput> {
             decoration: InputDecoration(
               isDense: true,
               label: widget.embeddedText ? const Text('Hex') : null,
-              contentPadding: const EdgeInsets.symmetric(vertical: 5),
             ),
             onChanged: (String value) {
               String input = value;
