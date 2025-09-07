@@ -11,11 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  regal:
-    git:
-      url: git@github.com:ATOAPaymentsLimited/atoa-flutter-packages.git
-      ref: feature/ledger-dls
-      path: packages/regal
+  ledger_design_system:
+    path: ../packages/packages/ledger_design_system
 
 dev_dependencies:
   flutter_test:

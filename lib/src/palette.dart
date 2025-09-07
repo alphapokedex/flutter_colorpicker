@@ -7,7 +7,7 @@ import 'dart:math';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:regal/ledger.dart';
+import 'package:ledger_design_system/ledger_design_system.dart';
 
 import 'utils.dart';
 
