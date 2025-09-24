@@ -7,7 +7,7 @@ import 'dart:math';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:regal/regal.dart';
+import 'package:ledger_design_system/ledger_design_system.dart';
 
 import 'utils.dart';
 
@@ -987,7 +987,7 @@ class _ColorPickerInputState extends State<ColorPickerInput> {
         if (!widget.embeddedText) Text('Hex', style: Theme.of(context).textTheme.bodyLarge),
         const SizedBox(width: 10),
         Expanded(
-          child: RegalTextField(
+          child: LedgerTextField(
             margin: EdgeInsets.zero,
             showLabel: false,
             showClear: false,

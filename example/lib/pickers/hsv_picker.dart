@@ -100,14 +100,14 @@ class _HSVColorPickerExampleState extends State<HSVColorPickerExample> {
                   },
                 );
               },
-              child: Text(
-                'Color Picker with Slider',
-                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
-              ),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
+              ),
+              child: Text(
+                'Color Picker with Slider',
+                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               ),
             ),
             const SizedBox(width: 20),
@@ -144,12 +144,12 @@ ColorPicker(
                   },
                 );
               },
-              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
               ),
+              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
             ),
           ],
         ),
@@ -264,14 +264,14 @@ ColorPicker(
                   },
                 );
               },
-              child: Text(
-                'Hue Ring Picker with Hex Input',
-                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
-              ),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
+              ),
+              child: Text(
+                'Hue Ring Picker with Hex Input',
+                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               ),
             ),
             const SizedBox(width: 20),
@@ -297,12 +297,12 @@ HueRingPicker(
                   },
                 );
               },
-              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
               ),
+              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
             ),
           ],
         ),
@@ -347,14 +347,14 @@ HueRingPicker(
                   },
                 );
               },
-              child: Text(
-                'Slider-only Color Picker',
-                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
-              ),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
+              ),
+              child: Text(
+                'Slider-only Color Picker',
+                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               ),
             ),
             const SizedBox(width: 20),
@@ -384,12 +384,12 @@ SlidePicker(
                   },
                 );
               },
-              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
               ),
+              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
             ),
           ],
         ),
@@ -505,14 +505,14 @@ SlidePicker(
                   },
                 );
               },
-              child: Text(
-                '  HSV Color Picker\n(Your own text field)',
-                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
-              ),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
+              ),
+              child: Text(
+                '  HSV Color Picker\n(Your own text field)',
+                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               ),
             ),
             const SizedBox(width: 20),
@@ -569,12 +569,12 @@ Column(
                   },
                 );
               },
-              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
               ),
+              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
             ),
           ],
         ),

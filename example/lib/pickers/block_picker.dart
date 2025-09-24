@@ -131,12 +131,12 @@ Widget pickerLayoutBuilder(BuildContext context, List<Color> colors, PickerItem 
                 },
               );
             },
-            child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
             style: ElevatedButton.styleFrom(
               backgroundColor: widget.pickerColor,
               shadowColor: widget.pickerColor.withOpacity(1),
               elevation: 10,
             ),
+            child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
           ),
         ),
         ListTile(
@@ -216,12 +216,12 @@ Widget pickerItemBuilder(Color color, bool isCurrentColor, void Function() chang
                 },
               );
             },
-            child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
             style: ElevatedButton.styleFrom(
               backgroundColor: widget.pickerColor,
               shadowColor: widget.pickerColor.withOpacity(1),
               elevation: 10,
             ),
+            child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
           ),
         ),
         ListTile(
@@ -295,14 +295,14 @@ Widget pickerItemBuilder(Color color, bool isCurrentColor, void Function() chang
                   },
                 );
               },
-              child: Text(
-                'Blocky Color Picker',
-                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
-              ),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
+              ),
+              child: Text(
+                'Blocky Color Picker',
+                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               ),
             ),
             const SizedBox(width: 20),
@@ -331,12 +331,12 @@ BlockPicker(
                   },
                 );
               },
-              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
               ),
+              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
             ),
           ],
         ),
@@ -367,14 +367,14 @@ BlockPicker(
                   },
                 );
               },
-              child: Text(
-                'Multiple selection Blocky Color Picker',
-                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
-              ),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
+              ),
+              child: Text(
+                'Multiple selection Blocky Color Picker',
+                style: TextStyle(color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               ),
             ),
             const SizedBox(width: 20),
@@ -403,12 +403,12 @@ MultipleChoiceBlockPicker(
                   },
                 );
               },
-              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
               style: ElevatedButton.styleFrom(
                 backgroundColor: widget.pickerColor,
                 shadowColor: widget.pickerColor.withOpacity(1),
                 elevation: 10,
               ),
+              child: Icon(Icons.code, color: useWhiteForeground(widget.pickerColor) ? Colors.white : Colors.black),
             ),
           ],
         ),
